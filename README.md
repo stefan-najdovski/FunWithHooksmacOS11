@@ -2,7 +2,7 @@
 Launches A window on macOS 11
 
 # Compilation
-- clang needed and CoreFoundation
+- clang needed and ApplicationServices
 ```
-clang++ -o about -framework ApplicationServices -framework CoreFoundation -framework CoreServices main.cpp
+clang++ -o hello -framework ApplicationServices main.cpp
 ```
